@@ -23,11 +23,6 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-}
-
-
 /* Set background color for the body */
 
 body {
@@ -67,6 +62,7 @@ nav a:hover {
 /* background element */
 #background {
     background-color:  #eec491d8;
+    height: 725px;
 }
 
 /* Set background color for the .msg section */
