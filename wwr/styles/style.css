@@ -5,7 +5,7 @@
 
 nav a {
     text-align: center;
-    color: black
+    color: black;
 }
 
 
@@ -60,14 +60,13 @@ nav a:hover {
     color: #000000;
 }
 .msg h2, .msg p {
-    color: 	#000000 ;
+    color: 	#000000;
 }
 
 
 /* background element */
 #background {
     background-color:  #eec491d8;
-    ;
 }
 
 /* Set background color for the .msg section */
