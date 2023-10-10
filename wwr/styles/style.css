@@ -51,10 +51,20 @@ nav a:hover {
 .book, .join {
     background-color: rgb(105, 96, 14);
 }
+
+.home-title {
+    color: #FFFFFF;
+}
+
 /*  background color for the buttons on hover */
 .book:hover, .join:hover {
     background-color: white;
+    color: #000000;
 }
+.msg h2, .msg p {
+    color: 	#000000 ;
+}
+
 
 /* background element */
 #background {
@@ -70,6 +80,12 @@ nav a:hover {
 /* Set background color for the footer */
 footer {
     background-color: #918282;
+    color: #f0e8e8
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #000000;
 }
 
 
