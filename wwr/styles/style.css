@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&family=Raleway:wght@600&display=swap');
+
 #content {
     max-width: 1600px; 
     margin: 0 auto;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 nav a {
+    text-decoration: none;
+    color: #fcfbfb;
     text-align: center;
-    color: black;
+    padding: 35px;
 }
 
 
@@ -26,7 +33,14 @@ main section {
 /* Set background color for the body */
 
 body {
-    background-color: white;
+    background-color: #fcfbfb;
+    font-family: 'Libre Caslon Text', 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin:0;
 }
 
 /* background color for the header */
@@ -37,16 +51,36 @@ header {
 /*  background color for navigation links on hover */
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #2e200d;
 }
 
 /* background color for the "Book Now" and "Join Us" buttons */
 .book, .join {
     background-color: rgb(105, 96, 14);
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .home-title {
-    color: #FFFFFF;
+    color: #e21616;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 /*  background color for the buttons on hover */
@@ -54,8 +88,9 @@ nav a:hover {
     background-color: white;
     color: #000000;
 }
-.msg h2, .msg p {
+.msg p {
     color: 	#000000;
+    padding-bottom: 15px;
 }
 
 /* background element */
@@ -67,12 +102,20 @@ nav a:hover {
 /* Set background color for the .msg section */
 .msg {
     background-color: #918282;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 /* Set background color for the footer */
 footer {
     background-color: #918282;
     color: #f0e8e8;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a:hover {
@@ -80,8 +123,6 @@ footer a:hover {
     color: #000000;
 }
 
-
-/*logo width*/
 
 .logo {
     width: 80px;
@@ -91,6 +132,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 /*hero width*/
