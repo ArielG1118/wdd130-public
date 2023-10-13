@@ -90,6 +90,7 @@ main section img {
 }
 .msg p {
     color: 	#000000;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 
