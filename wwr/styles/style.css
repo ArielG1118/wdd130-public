@@ -96,15 +96,15 @@ nav {
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-
-}
-.main.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img, .mountains {
     width: 100%;
+}
+
+.main.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .rivers-card {

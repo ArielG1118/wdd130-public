@@ -1,25 +1,25 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Caslon+Text:wght@700&family=Roboto+Slab&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #7abdec   ;
-  --secondary-color: #a58010 ;
-  --accent1-color: #A42212;
-  --accent2-color: rgb(181, 207, 159);
+  --primary-color: #396e94   ;
+  --secondary-color: #e7c24f ;
+  --accent1-color: #3a7d44 ;
+  --accent2-color: #ff595e ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Raleway, Helvetica, sans-serif;
+  --heading-font: "Roboto Slab";
+  --paragraph-font: Agbalumo, Libre Caslon Text;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #795e0e;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-white: #ff595e;  /* headlines on a white background */ 
+  --headline-color-on-color: #e7c24f; /* headlines on a colored background */ 
   --paragraph-color-on-white: #010b13; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #064979  ;
+  --paragraph-background-color: #396e94  ;
   --nav-link-color: #8b9439;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
