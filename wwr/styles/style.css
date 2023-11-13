@@ -222,6 +222,73 @@ footer a {
     text-decoration: none;
 }
 
+/* Rivers css */
+
+.river-title {
+    color: #d12222;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.kayak-card p {
+    overflow: auto;
+}
+
+.firstkayak-jpg {
+    float: left;
+    margin-right: 20px;
+    width: 100%; 
+    height: auto;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+    border: 15px solid #ffdab9;
+    border-radius: 8px;
+}
+
+.camping-card1 {
+    overflow: auto;
+}
+
+.card-jpg {
+    float: left;
+    margin-right: 20px;
+    width: 100%; 
+    height: auto;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+    border: 15px solid #ffdab9;
+    border-radius: 8px;
+}
+
+p {
+    padding: 10px; 
+    text-align: center;
+}
+
+.rapids1-card {
+    overflow: auto;
+}
+
+.river-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-text {
+    color: #0d2553; 
+}
+
+.kayak-card .firstkayak-jpg, .camping-card1 .card-jpg,
+.rapids1-card .card-jpg {
+    float: left;
+    width: 500px; 
+    height: 400x;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
 /* Increase font size for footer text */
 footer p {
     font-size: 1.2em;
