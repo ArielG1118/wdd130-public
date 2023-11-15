@@ -279,14 +279,16 @@ p {
     color: #0d2553; 
 }
 
-.kayak-card .firstkayak-jpg, .camping-card1 .card-jpg,
+.kayak-card .firstkayak-jpg,
+.camping-card1 .card-jpg,
 .rapids1-card .card-jpg {
     float: left;
     width: 500px; 
-    height: 400x;
+    height: 400px; /* Updated value */
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 
 
 /* Increase font size for footer text */
