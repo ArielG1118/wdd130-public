@@ -9,13 +9,9 @@
     justify-self: center;
     align-self: center;
 }
-
 .logo {
-    width: 100px;
-    border-radius: 100px;
-    box-shadow: 0 0 5px #396e94 ; 
+    width: 200px;
 }
-
 nav a {
     text-decoration: none;
     color: #080000;
@@ -23,7 +19,6 @@ nav a {
     padding: 30px;
     text-transform: capitalize;
 }
-
 
 /*  background color for navigation links on hover */
 nav a:hover {
