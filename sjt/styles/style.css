@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Caslon+Text:wght@700&family=Roboto+Slab&display=swap');
+
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 5px #396e94 ; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #080000;
+    text-align: center;
+    padding: 30px;
+    text-transform: capitalize;
+}
+
+
+/*  background color for navigation links on hover */
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #e7c24f;
+}
+
+/* background color for the header */
+header {
+    background-color: #e7c24f;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+
+.title-msg {
+    text-align: center;
+    color: #ff595e;
+    animation: title-animation 1s infinite linear alternate; 
+}
+
+@keyframes title-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px); 
+    }
+}
+
+
+.button-box {
+    text-align: center;
+}
+
+
+main section {
+    text-align: center;
+}
+
+/* Adjust grid layout */
+.home-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left-side {
+    grid-column: 1 / 2; 
+    padding: 30px; 
+    font-size: 18px; 
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 75%;
+    background-color: #3a7d44;
+}
+
+.right-side {
+    grid-column: 2 / 3; 
+    text-align: left; 
+}
+
+
+.left-side img,
+.right-side img {
+    width: 90%; 
+    height: 90px; 
+    padding: 30px;
+    
+    
+}
+.right-side img {
+    max-width: 90%; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(19, 18, 18); 
+    margin-top: 80px;
+    padding: 10px;
+    animation: floatAnimation 4s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* Set background color for the body */
+
+body {
+    background-color: #84bce4;
+    font-family: 'Agbalumo', 'Roboto Slab', 'Libre Caslon Text', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://storyv.net/wp-content/uploads/2019/10/surfing-2192675_1920.jpg'); 
+    background-repeat: repeat-x; 
+    background-size: cover; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+   
+.p {
+    color: 	#000000;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+/* background element */
+#background {
+    background-color:  #eec491d8;
+    height: 725px;
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
+}
+
+/* Set background color for the .msg section */
+.msg {
+    background-color: #918282;
+    padding: 35px;
+    grid-column: 6 / 10;
+    grid-row: 6 / 7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+/* Set background color for the footer */
+footer {
+    background-color: #e7c24f;
+    color: #080000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+
