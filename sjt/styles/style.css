@@ -138,6 +138,11 @@ nav {
     padding-bottom: 15px;
 }
 
+
+.left-side p {
+    font-family: 'Roboto Slab', serif;
+}
+
 /* background element */
 #background {
     background-color:  #eec491d8;
@@ -200,6 +205,7 @@ footer a:hover {
   user-select: none;
 }
 
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -257,3 +263,88 @@ footer a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+/* Attraction CSS */
+
+.surfing-card {
+    overflow: auto;
+}
+
+.surfing-jpg,
+.sunset-jpg,
+.falls-jpg {
+    float: left;
+    margin-right: 20px;
+    width: 100%; 
+    height: auto;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+    border: 15px solid #e7c24f;
+    border-radius: 8px;
+    
+}
+
+.camping-card1 {
+    overflow: auto;
+}
+
+
+.falls-jpg {
+    overflow: auto;
+}
+
+.attractions-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.surfing-card p,
+.sunset-card1 p,
+.falls-card p {
+    overflow: auto;
+    padding: 10px;
+    font-size: 25px; 
+    text-align: center;
+    background-color: #3a7d44;
+    animation: fadeIn 3s ease forwards;
+    font-family: 'Roboto Slab', serif;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+.surfing-card .surfing-jpg,
+.sunset-card1 .sunset-jpg,
+.falls-card .falls-jpg {
+    float: left;
+    width: 500px; 
+    height: 400px;
+    transition: transform 0.5s;
+    box-shadow: 10px 10px 10px #396e94;
+    border-radius: 5px;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
